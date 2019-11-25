@@ -9,4 +9,63 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  /* background-color: #964b00; */
+  background-color: #82bd66;
+  display: flex;
+  justify-content: center;
+}
+
+heading {
+  text-align: center;
+  color: #472707;
+}
+
+.td-cell {
+  font-weight: bold;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgb(74, 151, 29);
+  vertical-align: middle;
+  text-align: center;
+  align-content: center;
+}
+
+.empty-revealed-cell {
+  background-color: lightgray;
+}
+
+.revealed-cell-1 {
+  background-color: lightgray;
+  color: blue;
+}
+.revealed-cell-2 {
+  background-color: lightgray;
+  color: green;
+}
+.revealed-cell-3 {
+  background-color: lightgray;
+  color: red;
+}
+.revealed-cell-4 {
+  background-color: lightgray;
+  color: darkblue;
+}
+
+.revealed-cell-5 {
+  background-color: lightgray;
+  color: darkgreen;
+}
+.revealed-cell-6 {
+  background-color: lightgray;
+  color: darkred;
+}
+
+.revealed-cell-7 {
+  background-color: lightgray;
+  color: purple;
+}
+
+.revealed-cell-8 {
+  background-color: lightgray;
+  color: hotpink;
 }
